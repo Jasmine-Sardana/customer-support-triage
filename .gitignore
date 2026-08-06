@@ -1,0 +1,42 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Model files
+models/*.pt
+models/*.bin
+models/*.pth
+
+# Data (optional)
+# data/
+
+# Python build
+dist/
+build/
+*.egg-info/
+
+# Poetry
+poetry.toml

@@ -11,6 +11,6 @@ df = dataset["train"].to_pandas()
 print(df.head())
 
 # Save locally
-df.to_csv("customer_support_tickets.csv", index=False)
+df.to_csv("data/customer_support_tickets.csv", index=False)
 
 print("Dataset downloaded successfully!")
